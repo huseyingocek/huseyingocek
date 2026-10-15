@@ -26,12 +26,12 @@ Currently at **LumivantaX**, with experience across **Fortinet, Cisco, Palo Alto
 <br />
 
 <p align="center">
-  <img src="assets/portfolio.svg" width="100%" alt="CASY: smart caravan system. NomadMesh: Bluetooth Low Energy communication application." />
+  <img src="assets/portfolio.svg" width="100%" alt="CASY: Caravan Aura System for energy management, sensor monitoring, and remote control. NomadMesh: offline mesh communication using BLE and Wi-Fi Direct." />
 </p>
 
-**CASY** — A smart caravan system exploring connected technology for caravan living.
+**CASY / Caravan Aura System** — An IoT project bringing energy and battery management, sensor monitoring, remote control, and automation into one platform for smarter caravan living.
 
-**NomadMesh** — A communication application using Bluetooth Low Energy (BLE) for device-to-device messaging.
+**NomadMesh** — An offline mesh communication project using BLE discovery, Wi-Fi Direct data transfer, and store-and-forward messaging. Designed for end-to-end encrypted communication when internet access is unavailable, including disaster scenarios.
 
 <sub>Both projects were prepared for TÜBİTAK 2209 applications and IEEE-related work.</sub>
 

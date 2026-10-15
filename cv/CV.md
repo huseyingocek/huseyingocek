@@ -78,8 +78,8 @@ DevSecOps and Cloud Security Engineer with hands-on experience in cybersecurity,
 
 ## Portfolio projects
 
-- **CASY:** Smart caravan system exploring connected technology for caravan living.
-- **NomadMesh:** Communication application using Bluetooth Low Energy (BLE) for device-to-device messaging.
+- **CASY / Caravan Aura System:** IoT project integrating energy and battery management, sensor monitoring, remote control, and automation for smart caravan living.
+- **NomadMesh:** Offline mesh communication project using BLE discovery, Wi-Fi Direct, and store-and-forward messaging, designed for end-to-end encrypted communication in internet-unavailable and disaster scenarios.
 
 Both projects were prepared for TÜBİTAK 2209 applications and IEEE-related work.
 
