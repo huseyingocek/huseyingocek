@@ -1,5 +1,13 @@
 # Profile setup
 
+## Published design v2
+
+The profile includes a custom SVG cover, focus strip, CASY and NomadMesh project cards, and `cv/Huseyin-Gocek-CV.pdf` with a readable `cv/CV.md` copy. CV content was condensed from the supplied LaTeX; dates and credentials are user-supplied. Project descriptions remain publication-neutral.
+
+Pac-Man is the main contribution animation, with the snake available in a collapsed bonus section. `.github/workflows/pacman.yml` generates light and dark SVGs daily at 03:43 UTC (06:43 Istanbul), on manual dispatch, and when its workflow changes on main. It publishes the images under `assets/` using the automatic repository token. The upstream action is pinned to `7332e1de7903ab780c3692a4127a59cc13872daa`. Documentation: <https://github.com/abozanona/pacman-contribution-graph>.
+
+To refresh manually, open Actions, choose **Generate Pac-Man contribution graph**, and select **Run workflow** on main. A labelled local placeholder remains visible until the first successful run. The workflow rebases its generated commit before pushing to accommodate unrelated updates from the snake workflow.
+
 ## Publish the profile
 
 1. Sign in as **huseyingocek** and create a **public** repository named **huseyingocek**. GitHub displays its root `README.md` on your profile.

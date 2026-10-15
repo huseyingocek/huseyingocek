@@ -1,0 +1,48 @@
+name: Generate Pac-Man contribution graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pacman.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-contributions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - name: Generate Pac-Man SVGs
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa
+        with:
+          github_user_name: huseyingocek
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          games: pacman
+      - name: Publish animation assets
+        run: |
+          test -s dist/pacman-contribution-graph.svg
+          test -s dist/pacman-contribution-graph-dark.svg
+          cp dist/pacman-contribution-graph.svg assets/
+          cp dist/pacman-contribution-graph-dark.svg assets/
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update Pac-Man contribution graphs"
+          git pull --rebase origin main
+          git push origin HEAD:main
