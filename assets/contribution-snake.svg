@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution trace awaiting first generation</title>
+  <desc id="desc">Static setup placeholder. No contribution data is displayed. Run the Generate contribution snake workflow to replace this image.</desc>
+  <rect x="1" y="1" width="1198" height="158" rx="12" fill="#0b101b" stroke="#283449"/>
+  <path d="M32 1H1168" stroke="#45f3d0" stroke-width="2"/>
+  <g font-family="ui-monospace, Consolas, monospace">
+    <text x="40" y="48" font-size="14" fill="#45f3d0" letter-spacing="2">CONTRIBUTION TRACE</text>
+    <text x="40" y="88" font-size="20" fill="#f1f5fb">Awaiting first generation<tspan fill="#eaa0f4">_</tspan></text>
+    <text x="40" y="121" font-size="14" fill="#a2afc4">GitHub Actions will populate this panel with contribution data.</text>
+  </g>
+</svg>

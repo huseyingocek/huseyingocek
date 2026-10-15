@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hüseyin Göçek — DevSecOps and Cloud Security</title>
+  <desc id="desc">A midnight security console with cyan and magenta accents and an abstract network diagram. Decorative graphics do not represent live telemetry.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#182438" stroke-width="1"/></pattern>
+    <linearGradient id="edge"><stop stop-color="#45f3d0"/><stop offset=".65" stop-color="#55baff"/><stop offset="1" stop-color="#e879f9"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#164451" stop-opacity=".65"/><stop offset="1" stop-color="#0b101b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="418" rx="18" fill="#0b101b" stroke="#283449"/>
+  <rect x="2" y="2" width="1196" height="416" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="220" rx="280" ry="210" fill="url(#halo)"/>
+  <path d="M32 1H1168" stroke="url(#edge)" stroke-width="3"/>
+  <g font-family="ui-monospace, Consolas, monospace">
+    <text x="48" y="51" fill="#45f3d0" font-size="14" letter-spacing="3">HG / SECURITY ENGINEERING</text>
+    <text x="1150" y="51" text-anchor="end" fill="#a2afc4" font-size="13">PROFILE CONSOLE / 01</text>
+    <path d="M48 75H1152" stroke="#283449"/>
+    <text x="48" y="132" fill="#a2afc4" font-size="15">&gt; whoami</text>
+  </g>
+  <text x="45" y="207" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="64" letter-spacing="-2" fill="#f1f5fb">Hüseyin Göçek<tspan fill="#45f3d0">.</tspan></text>
+  <text x="48" y="252" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#c1ccdc">DevSecOps &amp; Cloud Security</text>
+  <g font-family="ui-monospace, Consolas, monospace" font-size="14">
+    <text x="48" y="305" fill="#45f3d0" letter-spacing="2">NETWORKS</text>
+    <text x="173" y="305" fill="#697a93">/</text>
+    <text x="201" y="305" fill="#7cc9ff" letter-spacing="2">CLOUD</text>
+    <text x="285" y="305" fill="#697a93">/</text>
+    <text x="313" y="305" fill="#eaa0f4" letter-spacing="2">AUTOMATION</text>
+    <path d="M48 346H1152" stroke="#283449"/>
+    <text x="48" y="382" fill="#a2afc4" font-size="13">@huseyingocek</text>
+    <text x="1152" y="382" text-anchor="end" fill="#a2afc4" font-size="13">ISTANBUL / TR</text>
+  </g>
+  <g fill="none" stroke="#2b5365" stroke-width="1.5">
+    <path d="M890 154L1015 123L1111 205L1038 290L910 270Z M890 154L1038 290M1015 123L910 270M1111 205L890 154"/>
+    <path d="M969 168L1025 198V247L969 277L913 247V198Z" stroke="#45f3d0" opacity=".7"/>
+    <path d="M949 222L964 237L991 204" stroke="#45f3d0" stroke-width="3"/>
+  </g>
+  <g fill="#0b101b" stroke="#7cc9ff" stroke-width="2"><circle cx="890" cy="154" r="5"/><circle cx="1015" cy="123" r="5"/><circle cx="1111" cy="205" r="5"/><circle cx="1038" cy="290" r="5"/><circle cx="910" cy="270" r="5"/></g>
+</svg>
