@@ -26,16 +26,14 @@ Currently at **LumivantaX**, with experience across **Fortinet, Cisco, Palo Alto
 <br />
 
 <p align="center">
-  <img src="assets/portfolio.svg" width="100%" alt="Project radar — CASY and NomadMesh. Portfolio projects; public details to follow." />
+  <img src="assets/portfolio.svg" width="100%" alt="CASY: smart caravan system. NomadMesh: Bluetooth Low Energy communication application." />
 </p>
 
-<details>
-<summary><b>Project notes / publication status</b></summary>
-<br />
+**CASY** — A smart caravan system exploring connected technology for caravan living.
 
-**CASY** and **NomadMesh** are projects in my portfolio. Technical descriptions and repository links will appear here when available to share.
+**NomadMesh** — A communication application using Bluetooth Low Energy (BLE) for device-to-device messaging.
 
-</details>
+<sub>Both projects were prepared for TÜBİTAK 2209 applications and IEEE-related work.</sub>
 
 <br />
 

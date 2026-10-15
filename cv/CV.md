@@ -78,8 +78,10 @@ DevSecOps and Cloud Security Engineer with hands-on experience in cybersecurity,
 
 ## Portfolio projects
 
-- **CASY:** Portfolio project. Technical details and repository availability to be added when ready to share.
-- **NomadMesh:** Portfolio project. Technical details and repository availability to be added when ready to share.
+- **CASY:** Smart caravan system exploring connected technology for caravan living.
+- **NomadMesh:** Communication application using Bluetooth Low Energy (BLE) for device-to-device messaging.
+
+Both projects were prepared for TÜBİTAK 2209 applications and IEEE-related work.
 
 ## Certifications & training
 
