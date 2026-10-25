@@ -37,25 +37,7 @@ Currently at **LumivantaX**, with experience across **Fortinet, Cisco, Palo Alto
 
 <br />
 
-### Contribution arcade / Pac-Man
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-contribution-graph-dark.svg" />
-  <img src="assets/pacman-contribution-graph.svg" width="100%" alt="Pac-Man animation generated from my GitHub contribution calendar." />
-</picture>
-
-<p align="center"><sub>My contribution calendar, arcade edition. Refreshed daily.</sub></p>
-
-<details>
-<summary><b>Bonus / contribution snake</b></summary>
-
-<p align="center">
-  <img src="assets/contribution-snake.svg" width="100%" alt="GitHub contribution snake. A labelled setup placeholder is shown until the first successful workflow run." />
-</p>
-
-<p align="center"><sub>Generated from GitHub contribution data by the included workflow.</sub></p>
-
-</details>
 
 <br />
 
